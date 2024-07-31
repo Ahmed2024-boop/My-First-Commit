@@ -1,0 +1,150 @@
+/* .p1 {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: right;
+}
+.learning-css a {
+  text-decoration: none;
+  color: black;
+}
+.learning-css ul li {
+  list-style: none;
+}
+.learning-css form input,
+.learning-css form textarea {
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+}
+.header-content img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 20px solid green;
+  margin-top: 30px;
+} */
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ header{
+  background-color: blue;
+ }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: cent;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+/* positioning */
+.facebook {
+  /* float:inline-end; */
+  margin-left: -80px;
+  z-index: -2;
+}
+.position {
+  background: red;
+  padding: 100px;
+  position: relative;
+}
+.logo-banner {
+  z-index: 1;
+}
+.social-icons .fa-brands {
+  font-size: 50px;
+}
+.social-icons .fa-instagram {
+  color: red;
+}
+
+/* header */
+.header-content{
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 50px;
+}
+.header-content .header-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+
+}
+.header-box h1{
+  font-size: 54px;
+}
+.header-content .header-box p{
+  max-width: 600px;
+  font-size: 18px;
+}
+.header-content .header-box form{
+   background-color: rgba(255, 255, 255,0.2);
+   width: 400px;
+   border-radius: 40px;
+   display: flex;
+   justify-content: space-between;
+   background: white;
+}
+.header-box input, .header-box button{
+  background-color: transparent;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  padding: 20px 40px;
+}
+.header-box button{
+  background: orange;
+  color: white;
+
+
+}
+.header-box img{
+height: 70vh;
+border-radius: 30px;
+
+}
+.header-box .price{
+  background: orange;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+}
+.header-box .Dollar{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
